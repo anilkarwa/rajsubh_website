@@ -137,7 +137,7 @@
    */
   on('click', '.scrollto', function(e) {
     if (select(this.hash)) {
-      e.preventDefault()
+      // e.preventDefault()
 
       let navbar = select('#navbar')
       if (navbar.classList.contains('navbar-mobile')) {

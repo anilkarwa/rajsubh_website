@@ -126,7 +126,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #topbar {
   height: 45px;
-  font-size: 1.4vh;
+  font-size: 1.6vh;
   transition: all 0.5s;
   z-index: 996;
 }
@@ -167,6 +167,10 @@ h1, h2, h3, h4, h5, h6 {
   padding-right: 10px;
   color: rgba(255, 255, 255, 0.5);
   content: "/";
+}
+
+#topbar .social a {
+  margin-right: 10px;
 }
 
 /*--------------------------------------------------------------
@@ -408,9 +412,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile {
-  position: fixed;
+  position: absolute;
   overflow: hidden;
-  top: 0;
+  top: 18%;
   right: 0;
   left: 0;
   bottom: 0;
@@ -418,25 +422,28 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
   z-index: 999;
 }
+.navbar{
+  align-items: baseline;
+}
 
 .navbar-mobile .mobile-nav-toggle {
   position: absolute;
-  top: 15px;
+  top: 4px;
   right: 15px;
+  font-size: 40px;
 }
 
 .navbar-mobile ul {
   display: block;
-  position: absolute;
-  top: 55px;
-  right: 15px;
+  position: relative;
+  top:0;
   bottom: 15px;
-  left: 15px;
   padding: 10px 0;
-  border-radius: 6px;
   background-color: #fff;
   overflow-y: auto;
   transition: 0.3s;
+  width: 100%;
+  padding-top: 10%;
 }
 
 .navbar-mobile a {
@@ -1550,13 +1557,8 @@ section {
 }
 
 .chefs .member .social i {
-  font-size: 18px;
+  font-size: 22px;
   margin: 0 2px;
-}
-
-#topbar .social i {
-  font-size: 16px;
-  margin-left: 10px;
 }
 
 
