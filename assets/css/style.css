@@ -125,8 +125,8 @@ h1, h2, h3, h4, h5, h6 {
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
-  height: 45px;
-  font-size: 1.6vh;
+  height: 11vh;
+  font-size: 1.5vh;
   transition: all 0.5s;
   z-index: 996;
 }
@@ -140,9 +140,11 @@ h1, h2, h3, h4, h5, h6 {
   color: #d9ba85;
 }
 
-#topbar .contact-info i span {
+#topbar .contact-info i span,
+#topbar .contact-info i a {
   padding-left: 5px;
   color: #fff;
+  letter-spacing: 0.6;
 }
 
 #topbar .languages ul {
@@ -182,7 +184,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 5px 0;
-  top: 40px;
+  top: 50px;
 }
 
 #header.header-scrolled {
@@ -212,7 +214,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo a .company-name h4 {
-  font-size: 26px;
+  font-size: 3.5vh;
   font-weight: 600;
 }
 
@@ -229,7 +231,7 @@ h1, h2, h3, h4, h5, h6 {
 # Book a table button Menu
 --------------------------------------------------------------*/
 .book-a-table-btn {
-  margin: 0 0 0 15px;
+  margin: 10px 0 0 15px;
   border: 2px solid #fff;
   color: #fff;
   border-radius: 50px;
@@ -250,9 +252,11 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 992px) {
   .book-a-table-btn {
-    margin: 0 0 0 8px;
-    padding: 5px 10px;
+    margin: 10px 0 0 8px;
+    padding: 5px 9px;
     font-size: 7px;
+    min-width: 75px;
+    max-height: 38px;
   }
   section#gallery a.book-a-table-btn.scrollto.d-none.d-lg-flex {
     margin-top: 10px;
@@ -418,7 +422,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.9);
+  /* background: rgba(0, 0, 0, 0.9); */
   transition: 0.3s;
   z-index: 999;
 }
@@ -430,7 +434,7 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   top: 4px;
   right: 15px;
-  font-size: 40px;
+  font-size: 35px;
 }
 
 .navbar-mobile ul {
@@ -1578,9 +1582,17 @@ section {
 .Contact-logo span {
   font-size: 26px;
   margin-top: 12px;
-  margin-bottom: 30px;
   letter-spacing: 2px;
   color: #cda45e;
+}
+
+.Contact-logo .social {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.Contact-logo .social a {
+  margin-right: 10px;
 }
 
 .contact .info {
@@ -1608,11 +1620,15 @@ section {
   font-family: "Poppins", sans-serif;
 }
 
-.contact .info p {
+.contact .info p  {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #bab3a6;
+  color: white !important;
+}
+
+.contact .info  p a {
+  color: white !important;
 }
 
 .contact .info .address, 
