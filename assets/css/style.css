@@ -257,19 +257,22 @@ h1, h2, h3, h4, h5, h6 {
 	.book-a-table-btn{
 		display: none !important;
 	}
+  .show-more {
+    display: block !important;
+  }
 	.book-a-table-btn.mobile-view {
     display: block !important;
     margin: 6px 4px 4px 0;
 }
-  .book-a-table-btn {
-    margin: 10px 0 0 8px;
-    padding: 5px 9px;
-    font-size: 7px;
-    min-width: 75px;
-    max-height: 38px;
-  }
-  section#gallery a.book-a-table-btn.scrollto.d-none.d-lg-flex {
-    margin-top: 10px;
+.book-a-table-btn {
+  margin: 10px 0 0 8px;
+  padding: 5px 9px;
+  font-size: 7px;
+  min-width: 75px;
+  max-height: 38px;
+}
+section#gallery a.book-a-table-btn.scrollto.d-none.d-lg-flex {
+  margin-top: 10px;
 }
 .top-swiper-text h2 {
   font-size: 18px;
