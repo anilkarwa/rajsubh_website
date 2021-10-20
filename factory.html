@@ -37,35 +37,35 @@
     s.async = true;
     s.src = url;
     var options = {
-  "enabled":true,
-  "chatButtonSetting":{
-      "backgroundColor":"#4dc247",
-      "ctaText":"",
-      "borderRadius":"25",
-      "marginLeft":"0",
-      "marginBottom":"80",
-      "marginRight":"10",
-      "position":"right"
-  },
-  "brandSetting":{
-      "brandName":"Rajsubh",
-      "brandSubTitle":"Typically replies within a day",
-      "brandImg":"https://cdn.clare.ai/wati/images/WATI_logo_square_2.png",
-      "welcomeText":"Hi there!\nHow can I help you?",
-      "messageText":"Hello, I have a question...",
-      "backgroundColor":"#0a5f54",
-      "ctaText":"Start Chat",
-      "borderRadius":"25",
-      "autoShow":false,
-      "phoneNumber":"9739280907"
-  }
-};
-    s.onload = function() {
-        CreateWhatsappChatWidget(options);
+      "enabled": true,
+      "chatButtonSetting": {
+        "backgroundColor": "#4dc247",
+        "ctaText": "",
+        "borderRadius": "25",
+        "marginLeft": "0",
+        "marginBottom": "80",
+        "marginRight": "10",
+        "position": "right"
+      },
+      "brandSetting": {
+        "brandName": "Rajsubh",
+        "brandSubTitle": "Typically replies within a day",
+        "brandImg": "https://cdn.clare.ai/wati/images/WATI_logo_square_2.png",
+        "welcomeText": "Hi there!\nHow can I help you?",
+        "messageText": "Hello, I have a question...",
+        "backgroundColor": "#0a5f54",
+        "ctaText": "Start Chat",
+        "borderRadius": "25",
+        "autoShow": false,
+        "phoneNumber": "9739280907"
+      }
+    };
+    s.onload = function () {
+      CreateWhatsappChatWidget(options);
     };
     var x = document.getElementsByTagName('script')[0];
     x.parentNode.insertBefore(s, x);
-</script>
+  </script>
 </head>
 
 <body>
@@ -74,18 +74,30 @@
   <div id="topbar" class="fixed-top">
     <div class="container d-flex justify-content-center justify-content-md-between">
       <div class="contact-info d-flex align-items-center" style="flex-wrap: wrap;">
-        <i class="bi bi-phone d-flex align-items-center" style="margin-top: 2px; margin-bottom: 4px;"><span>+1 5589 55488 55</span></i>
-        <i class="bi bi-whatsapp d-flex align-items-center ms-4" style="margin-right: 10px; margin-top: 2px; margin-bottom: 4px;"><span>+91 8302298066</span></i>
-        <a href="rajsubh E-broucher.pdf" target="_back" class="book-a-table-btn scrollto d-none d-lg-flex mobile-view">Download E-brochure</a>
-        <i class="bi bi-envelope d-flex align-items-center ms-6" style="margin-right: 10px; margin-top: 2px; margin-bottom: 4px;"><a href="mailto:rajsubhstones@gmail.com">rajsubhstones@gmail.com</a></i>
-        <div class="social" style="margin-top: 2px;">
-          <a href="https://m.facebook.com/rajsubhstones/?ref=bookmarks"><img style="width: 18px; height: 18px;" src="assets/img/fb.png" /></a>
-          <a href="https://mobile.twitter.com/RajsubhSubh"><img style="width: 27px; height: 16px;" src="assets/img/twitter.png" /></a>
-          <a href="https://instagram.com/rajsubh_stones?utm_medium=copy_link"><img style="width: 18px; height: 18px;" src="assets/img/insta.png" /></a>
-          <a href="https://youtube.com/channel/UCbzsm3Xaie0pmc_F_Bnub2w"><img style="width: 21px; height: 16px;" src="assets/img/youtube.png" /></a>
-        </div>
+       <div class="mobile-no">
+        <i class="bi bi-phone d-flex align-items-center" style="margin-top: 2px; margin-bottom: 4px;"><span>+1 5589
+          55488 55</span></i>
+      <i class="bi bi-whatsapp d-flex align-items-center ms-4"
+        style="margin-right: 10px; margin-top: 2px; margin-bottom: 4px;"><span>+91 8302298066</span></i>
+       </div>
+       <div class="social-icon">
+        <i class="bi bi-envelope d-flex align-items-center ms-6"
+        style="margin-right: 10px; margin-top: 2px; margin-bottom: 4px;"><a
+          href="mailto:rajsubhstones@gmail.com">rajsubhstones@gmail.com</a></i>
+      <div class="social" style="margin-top: 2px;">
+        <a href="https://m.facebook.com/rajsubhstones/?ref=bookmarks"><img style="width: 18px; height: 18px;"
+            src="assets/img/fb.png" /></a>
+        <a href="https://mobile.twitter.com/RajsubhSubh"><img style="width: 27px; height: 16px;"
+            src="assets/img/twitter.png" /></a>
+        <a href="https://instagram.com/rajsubh_stones?utm_medium=copy_link"><img style="width: 18px; height: 18px;"
+            src="assets/img/insta.png" /></a>
+        <a href="https://youtube.com/channel/UCbzsm3Xaie0pmc_F_Bnub2w"><img style="width: 21px; height: 16px;"
+            src="assets/img/youtube.png" /></a>
       </div>
-      <a href="rajsubh E-broucher.pdf" target="_back" class="book-a-table-btn scrollto d-none d-lg-flex">Download E-brochure</a>
+       </div>
+      </div>
+      <a href="rajsubh E-broucher.pdf" target="_back" class="book-a-table-btn scrollto d-none d-lg-flex">Download
+        E-brochure</a>
     </div>
   </div>
 
@@ -95,10 +107,10 @@
 
       <h1 class="logo me-auto me-lg-0">
         <a href="index.html">
-          <img src="assets/img/logo.png" alt="logo">          
+          <img src="assets/img/logo.png" alt="logo">
           <div class="company-name">
-              <h4>Rajsubh Stones</h4>
-              <h6>Marble Granite Supplier & Expoter</h6>
+            <h4>Rajsubh Stones</h4>
+            <h6>Marble Granite Supplier & Expoter</h6>
           </div>
         </a>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -107,7 +119,7 @@
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="nav-link scrollto" href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto " href="index.html">Home</a></li>
           <li class="dropdown"><a href="#Products"><span>Products</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="Granite.html">Granite </a></li>
@@ -115,7 +127,7 @@
               <li><a href="composite.html">Composite</a></li>
             </ul>
           </li>
-          <li class="dropdown"><a href="#" class="active"><span>infrastructure</span> <i
+          <li class="dropdown"><a href="#infrastructure" class="active"><span>infrastructure</span> <i
                 class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="quarries.html">Quarries</a></li>
@@ -123,7 +135,6 @@
               <li><a href="factory.html">Factory Outlets</a></li>
             </ul>
           </li>
-
         </ul>
       </nav><!-- .navbar -->
 
@@ -160,7 +171,7 @@
               airport.</span>-->
           </div>
 
-            <!-- <div class="col-lg-6">
+          <!-- <div class="col-lg-6">
               <img src="assets/img/event-birthday.jpg" class="img-fluid" alt="">
             </div> -->
         </div>
@@ -173,7 +184,7 @@
       <section id="gallery-section" class="gallery">
         <div class="container" data-aos="fade-up" data-aos-delay="100">
           <div class="row">
-            <!-- <div class="col-lg-3 col-md-4">
+            <!-- <div class="col-lg-3 col-md-4 col-sm-6">
               <div class="gallery-item">
                 <a href="assets/img/manufacturing-units/rajsubh/1.jpg" class="gallery-lightbox" data-gall="gallery-item">
                   <img src="assets/img/manufacturing-units/rajsubh/1.jpg" alt="" class="img-fluid">
@@ -181,7 +192,7 @@
               </div>
             </div> -->
 
-            <div class="col-lg-3 col-md-4">
+            <div class="col-lg-3 col-md-4 col-sm-6">
               <div class="gallery-item">
                 <a href="assets/img/factoryoutlet/uniquemarble/1.JPG" class="gallery-lightbox" data-gall="gallery-item">
                   <img src="assets/img/factoryoutlet/uniquemarble/1.JPG" alt="" class="img-fluid">
@@ -189,7 +200,7 @@
               </div>
             </div>
 
-            <div class="col-lg-3 col-md-4">
+            <div class="col-lg-3 col-md-4 col-sm-6">
               <div class="gallery-item">
                 <a href="assets/img/factoryoutlet/uniquemarble/2.jpg" class="gallery-lightbox" data-gall="gallery-item">
                   <img src="assets/img/factoryoutlet/uniquemarble/2.jpg" alt="" class="img-fluid">
@@ -204,428 +215,438 @@
     </main><!-- End #main -->
 
 
-    
-      <!-- ======= inner-page ======= -->
-      <section id="new-bharat" class="inner-page">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6 pt-4 pt-lg-0 content">
-              <h2><a href="#new-bharat">New Bharat Marble and Granite</a></h2>
-              <p>Haridwar Bypass, Dehradun</p>
-              <p>Phone- +919927009076</p>
-              <!-- <span>Inani group Owns quarries that produce more than 20 different colors. Abundant with granite, Marble,
+
+    <!-- ======= inner-page ======= -->
+    <section id="new-bharat" class="inner-page">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 pt-4 pt-lg-0 content">
+            <h2><a href="#new-bharat">New Bharat Marble and Granite</a></h2>
+            <p>Haridwar Bypass, Dehradun</p>
+            <p>Phone- +919927009076</p>
+            <!-- <span>Inani group Owns quarries that produce more than 20 different colors. Abundant with granite, Marble,
                 Quartzite and
                 sand stone deposits, these quarries are spread across North India. </span>
               <span>Kasariyaji is a town in Rajasthan state, near Udaipur. It is headquarter of green marble. It is 60 km
                 from Udaipur 
                 airport.</span>-->
-            </div>
-  
-              <!-- <div class="col-lg-6">
+          </div>
+
+          <!-- <div class="col-lg-6">
                 <img src="assets/img/event-birthday.jpg" class="img-fluid" alt="">
               </div> -->
-          </div>
         </div>
-      </section>
-      <!-- End inner-page Section -->
-  
-      <main id="main">
-        <!-- ======= Gallery Section ======= -->
-        <section id="gallery-section" class="gallery">
-          <div class="container" data-aos="fade-up" data-aos-delay="100">
-            <div class="row">
-              <!-- <div class="col-lg-3 col-md-4">
+      </div>
+    </section>
+    <!-- End inner-page Section -->
+
+    <main id="main">
+      <!-- ======= Gallery Section ======= -->
+      <section id="gallery-section" class="gallery">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row">
+            <!-- <div class="col-lg-3 col-md-4 col-sm-6">
                 <div class="gallery-item">
                   <a href="assets/img/manufacturing-units/rajsubh/1.jpg" class="gallery-lightbox" data-gall="gallery-item">
                     <img src="assets/img/manufacturing-units/rajsubh/1.jpg" alt="" class="img-fluid">
                   </a>
                 </div>
               </div> -->
-  
-              <div class="col-lg-3 col-md-4">
-                <div class="gallery-item">
-                  <a href="assets/img/factoryoutlet/new-bharat/1.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                    <img src="assets/img/factoryoutlet/new-bharat/1.jpg" alt="" class="img-fluid">
-                  </a>
-                </div>
-              </div>
 
-              <div class="col-lg-3 col-md-4">
-                <div class="gallery-item">
-                  <a href="assets/img/factoryoutlet/new-bharat/2.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                    <img src="assets/img/factoryoutlet/new-bharat/2.jpg" alt="" class="img-fluid">
-                  </a>
-                </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="gallery-item">
+                <a href="assets/img/factoryoutlet/new_bharat/1.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                  <img src="assets/img/factoryoutlet/new_bharat/1.jpg" alt="" class="img-fluid">
+                </a>
               </div>
-  
             </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="gallery-item">
+                <a href="assets/img/factoryoutlet/new_bharat/2.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                  <img src="assets/img/factoryoutlet/new_bharat/2.jpg" alt="" class="img-fluid">
+                </a>
+              </div>
+            </div>
+
           </div>
-        </section><!-- End Gallery Section -->
-  
-      </main><!-- End #main -->
+        </div>
+      </section><!-- End Gallery Section -->
+
+    </main><!-- End #main -->
 
 
-        <!-- ======= inner-page ======= -->
-        <section id="ram-rana-jammu" class="inner-page">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-6 pt-4 pt-lg-0 content">
-                <h2><a href="#ram-rana-jammu">Ram Rana Granite</a></h2>
-                <p>Trikuta Nagar, Jammu</p>
-                <p>Phone- +919602594401</p>
-                <!-- <span>Inani group Owns quarries that produce more than 20 different colors. Abundant with granite, Marble,
+    <!-- ======= inner-page ======= -->
+    <section id="ram-rana-jammu" class="inner-page">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 pt-4 pt-lg-0 content">
+            <h2><a href="#ram-rana-jammu">Ram Rana Granite</a></h2>
+            <p>Trikuta Nagar, Jammu</p>
+            <p>Phone- +919602594401</p>
+            <!-- <span>Inani group Owns quarries that produce more than 20 different colors. Abundant with granite, Marble,
                   Quartzite and
                   sand stone deposits, these quarries are spread across North India. </span>
                 <span>Kasariyaji is a town in Rajasthan state, near Udaipur. It is headquarter of green marble. It is 60 km
                   from Udaipur 
                   airport.</span>-->
-              </div>
-    
-                <!-- <div class="col-lg-6">
+          </div>
+
+          <!-- <div class="col-lg-6">
                   <img src="assets/img/event-birthday.jpg" class="img-fluid" alt="">
                 </div> -->
-            </div>
-          </div>
-        </section>
-      <!-- End inner-page Section -->
-      
-          <main id="main">
-            <!-- ======= Gallery Section ======= -->
-            <section id="gallery-section" class="gallery">
-              <div class="container" data-aos="fade-up" data-aos-delay="100">
-                <div class="row">
-                  <!-- <div class="col-lg-3 col-md-4">
+        </div>
+      </div>
+    </section>
+    <!-- End inner-page Section -->
+
+    <main id="main">
+      <!-- ======= Gallery Section ======= -->
+      <section id="gallery-section" class="gallery">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row">
+            <!-- <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="gallery-item">
                       <a href="assets/img/manufacturing-units/rajsubh/1.jpg" class="gallery-lightbox" data-gall="gallery-item">
                         <img src="assets/img/manufacturing-units/rajsubh/1.jpg" alt="" class="img-fluid">
                       </a>
                     </div>
                   </div> -->
-      
-                  <div class="col-lg-3 col-md-4">
-                    <div class="gallery-item">
-                      <a href="assets/img/factoryoutlet/ram-rana-jaamu/1.JPG" class="gallery-lightbox" data-gall="gallery-item">
-                        <img src="assets/img/factoryoutlet/ram-rana-jaamu/1.JPG" alt="" class="img-fluid">
-                      </a>
-                    </div>
-                  </div>
 
-                  <div class="col-lg-3 col-md-4">
-                    <div class="gallery-item">
-                      <a href="assets/img/factoryoutlet/ram-rana-jaamu/2.JPG" class="gallery-lightbox" data-gall="gallery-item">
-                        <img src="assets/img/factoryoutlet/ram-rana-jaamu/2.JPG" alt="" class="img-fluid">
-                      </a>
-                    </div>
-                  </div>
-      
-                </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="gallery-item">
+                <a href="assets/img/factoryoutlet/ram-rana-jaamu/1.JPG" class="gallery-lightbox"
+                  data-gall="gallery-item">
+                  <img src="assets/img/factoryoutlet/ram-rana-jaamu/1.JPG" alt="" class="img-fluid">
+                </a>
               </div>
-            </section><!-- End Gallery Section -->
-      
-          </main><!-- End #main -->
+            </div>
 
-          <!-- ======= inner-page ======= -->
-          <section id="vinayak-jammu" class="inner-page">
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-6 pt-4 pt-lg-0 content">
-                  <h2><a href="#vinayak-jammu">Vinayak Marble</a></h2>
-                  <p>Trikuta Nagar, Jammu</p>
-                  <p>Phone- +919086688893</p>
-                  <!-- <span>Inani group Owns quarries that produce more than 20 different colors. Abundant with granite, Marble,
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="gallery-item">
+                <a href="assets/img/factoryoutlet/ram-rana-jaamu/2.JPG" class="gallery-lightbox"
+                  data-gall="gallery-item">
+                  <img src="assets/img/factoryoutlet/ram-rana-jaamu/2.JPG" alt="" class="img-fluid">
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section><!-- End Gallery Section -->
+
+    </main><!-- End #main -->
+
+    <!-- ======= inner-page ======= -->
+    <section id="vinayak-jammu" class="inner-page">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 pt-4 pt-lg-0 content">
+            <h2><a href="#vinayak-jammu">Vinayak Marble</a></h2>
+            <p>Trikuta Nagar, Jammu</p>
+            <p>Phone- +919086688893</p>
+            <!-- <span>Inani group Owns quarries that produce more than 20 different colors. Abundant with granite, Marble,
                     Quartzite and
                     sand stone deposits, these quarries are spread across North India. </span>
                   <span>Kasariyaji is a town in Rajasthan state, near Udaipur. It is headquarter of green marble. It is 60 km
                     from Udaipur 
                     airport.</span>-->
-                </div>
-      
-                  <!-- <div class="col-lg-6">
+          </div>
+
+          <!-- <div class="col-lg-6">
                     <img src="assets/img/event-birthday.jpg" class="img-fluid" alt="">
                   </div> -->
-              </div>
-            </div>
-          </section>
-          <!-- End inner-page Section -->
-      
-          <main id="main">
-            <!-- ======= Gallery Section ======= -->
-            <section id="gallery-section" class="gallery">
-              <div class="container" data-aos="fade-up" data-aos-delay="100">
-                <div class="row">
-                  <!-- <div class="col-lg-3 col-md-4">
+        </div>
+      </div>
+    </section>
+    <!-- End inner-page Section -->
+
+    <main id="main">
+      <!-- ======= Gallery Section ======= -->
+      <section id="gallery-section" class="gallery">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row">
+            <!-- <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="gallery-item">
                       <a href="assets/img/manufacturing-units/rajsubh/1.jpg" class="gallery-lightbox" data-gall="gallery-item">
                         <img src="assets/img/manufacturing-units/rajsubh/1.jpg" alt="" class="img-fluid">
                       </a>
                     </div>
                   </div> -->
-      
-                  <div class="col-lg-3 col-md-4">
-                    <div class="gallery-item">
-                      <a href="assets/img/factoryoutlet/vinayak-jaamu/1.JPG" class="gallery-lightbox" data-gall="gallery-item">
-                        <img src="assets/img/factoryoutlet/vinayak-jaamu/1.JPG" alt="" class="img-fluid">
-                      </a>
-                    </div>
-                  </div>
 
-                  <div class="col-lg-3 col-md-4">
-                    <div class="gallery-item">
-                      <a href="assets/img/factoryoutlet/vinayak-jaamu/2.JPG" class="gallery-lightbox" data-gall="gallery-item">
-                        <img src="assets/img/factoryoutlet/vinayak-jaamu/2.JPG" alt="" class="img-fluid">
-                      </a>
-                    </div>
-                  </div>
-      
-                </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="gallery-item">
+                <a href="assets/img/factoryoutlet/vinayak-jaamu/1.JPG" class="gallery-lightbox"
+                  data-gall="gallery-item">
+                  <img src="assets/img/factoryoutlet/vinayak-jaamu/1.JPG" alt="" class="img-fluid">
+                </a>
               </div>
-            </section><!-- End Gallery Section -->
-      
-          </main><!-- End #main -->
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="gallery-item">
+                <a href="assets/img/factoryoutlet/vinayak-jaamu/2.JPG" class="gallery-lightbox"
+                  data-gall="gallery-item">
+                  <img src="assets/img/factoryoutlet/vinayak-jaamu/2.JPG" alt="" class="img-fluid">
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section><!-- End Gallery Section -->
+
+    </main><!-- End #main -->
 
 
-      <!-- ======= inner-page ======= -->
-      <section id="vinayak-siliguri" class="inner-page">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6 pt-4 pt-lg-0 content">
-              <h2><a href="#vinayak-siliguri">Vinayak Marble & Granite</a></h2>
-              <p>Eastern Bypass Road, Siliguri</p>
-              <p>Phone- +919461223411</p>
-              <!-- <span>Inani group Owns quarries that produce more than 20 different colors. Abundant with granite, Marble,
+    <!-- ======= inner-page ======= -->
+    <section id="vinayak-siliguri" class="inner-page">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 pt-4 pt-lg-0 content">
+            <h2><a href="#vinayak-siliguri">Vinayak Marble & Granite</a></h2>
+            <p>Eastern Bypass Road, Siliguri</p>
+            <p>Phone- +919461223411</p>
+            <!-- <span>Inani group Owns quarries that produce more than 20 different colors. Abundant with granite, Marble,
                 Quartzite and
                 sand stone deposits, these quarries are spread across North India. </span>
               <span>Kasariyaji is a town in Rajasthan state, near Udaipur. It is headquarter of green marble. It is 60 km
                 from Udaipur 
                 airport.</span>-->
-            </div>
-  
-              <!-- <div class="col-lg-6">
+          </div>
+
+          <!-- <div class="col-lg-6">
                 <img src="assets/img/event-birthday.jpg" class="img-fluid" alt="">
               </div> -->
-          </div>
         </div>
-      </section>
-      <!-- End inner-page Section -->
-  
-      <main id="main">
-        <!-- ======= Gallery Section ======= -->
-        <section id="gallery-section" class="gallery">
-          <div class="container" data-aos="fade-up" data-aos-delay="100">
-            <div class="row">
-              <!-- <div class="col-lg-3 col-md-4">
+      </div>
+    </section>
+    <!-- End inner-page Section -->
+
+    <main id="main">
+      <!-- ======= Gallery Section ======= -->
+      <section id="gallery-section" class="gallery">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row">
+            <!-- <div class="col-lg-3 col-md-4 col-sm-6">
                 <div class="gallery-item">
                   <a href="assets/img/manufacturing-units/rajsubh/1.jpg" class="gallery-lightbox" data-gall="gallery-item">
                     <img src="assets/img/manufacturing-units/rajsubh/1.jpg" alt="" class="img-fluid">
                   </a>
                 </div>
               </div> -->
-  
-              <div class="col-lg-3 col-md-4">
-                <div class="gallery-item">
-                  <a href="assets/img/factoryoutlet/vinayak-siliguri/1.JPG" class="gallery-lightbox" data-gall="gallery-item">
-                    <img src="assets/img/factoryoutlet/vinayak-siliguri/1.JPG" alt="" class="img-fluid">
-                  </a>
-                </div>
-              </div>
 
-              <div class="col-lg-3 col-md-4">
-                <div class="gallery-item">
-                  <a href="assets/img/factoryoutlet/vinayak-siliguri/2.JPG" class="gallery-lightbox" data-gall="gallery-item">
-                    <img src="assets/img/factoryoutlet/vinayak-siliguri/2.JPG" alt="" class="img-fluid">
-                  </a>
-                </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="gallery-item">
+                <a href="assets/img/factoryoutlet/vinayak-siliguri/1.JPG" class="gallery-lightbox"
+                  data-gall="gallery-item">
+                  <img src="assets/img/factoryoutlet/vinayak-siliguri/1.JPG" alt="" class="img-fluid">
+                </a>
               </div>
-  
             </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="gallery-item">
+                <a href="assets/img/factoryoutlet/vinayak-siliguri/2.JPG" class="gallery-lightbox"
+                  data-gall="gallery-item">
+                  <img src="assets/img/factoryoutlet/vinayak-siliguri/2.JPG" alt="" class="img-fluid">
+                </a>
+              </div>
+            </div>
+
           </div>
-        </section><!-- End Gallery Section -->
-  
-      </main><!-- End #main -->
+        </div>
+      </section><!-- End Gallery Section -->
+
+    </main><!-- End #main -->
 
 
 
-      <!-- ======= inner-page ======= -->
-      <section id="sri-rana" class="inner-page">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6 pt-4 pt-lg-0 content">
-              <h2><a href="#sri-rana">Sri Rana Marble & Granite</a></h2>
-              <p>Hunter Road, Hanamkonda, Warrangal</p>
-              <p>Phone- +918790288217</p>
-              <!-- <span>Inani group Owns quarries that produce more than 20 different colors. Abundant with granite, Marble,
+    <!-- ======= inner-page ======= -->
+    <section id="sri-rana" class="inner-page">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 pt-4 pt-lg-0 content">
+            <h2><a href="#sri-rana">Sri Rana Marble & Granite</a></h2>
+            <p>Hunter Road, Hanamkonda, Warrangal</p>
+            <p>Phone- +918790288217</p>
+            <!-- <span>Inani group Owns quarries that produce more than 20 different colors. Abundant with granite, Marble,
                 Quartzite and
                 sand stone deposits, these quarries are spread across North India. </span>
               <span>Kasariyaji is a town in Rajasthan state, near Udaipur. It is headquarter of green marble. It is 60 km
                 from Udaipur 
                 airport.</span>-->
-            </div>
-  
-              <!-- <div class="col-lg-6">
+          </div>
+
+          <!-- <div class="col-lg-6">
                 <img src="assets/img/event-birthday.jpg" class="img-fluid" alt="">
               </div> -->
-          </div>
         </div>
-      </section>
-      <!-- End inner-page Section -->
-  
-      <main id="main">
-        <!-- ======= Gallery Section ======= -->
-        <section id="gallery-section" class="gallery">
-          <div class="container" data-aos="fade-up" data-aos-delay="100">
-            <div class="row">
-              <!-- <div class="col-lg-3 col-md-4">
+      </div>
+    </section>
+    <!-- End inner-page Section -->
+
+    <main id="main">
+      <!-- ======= Gallery Section ======= -->
+      <section id="gallery-section" class="gallery">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row">
+            <!-- <div class="col-lg-3 col-md-4 col-sm-6">
                 <div class="gallery-item">
                   <a href="assets/img/manufacturing-units/rajsubh/1.jpg" class="gallery-lightbox" data-gall="gallery-item">
                     <img src="assets/img/manufacturing-units/rajsubh/1.jpg" alt="" class="img-fluid">
                   </a>
                 </div>
               </div> -->
-  
-              <div class="col-lg-3 col-md-4">
-                <div class="gallery-item">
-                  <a href="assets/img/factoryoutlet/sri-rana-warangal/1.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                    <img src="assets/img/factoryoutlet/sri-rana-warangal/1.jpg" alt="" class="img-fluid">
-                  </a>
-                </div>
-              </div>
 
-              <div class="col-lg-3 col-md-4">
-                <div class="gallery-item">
-                  <a href="assets/img/factoryoutlet/sri-rana-warangal/2.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                    <img src="assets/img/factoryoutlet/sri-rana-warangal/2.jpg" alt="" class="img-fluid">
-                  </a>
-                </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="gallery-item">
+                <a href="assets/img/factoryoutlet/sri-rana-warangal/1.jpg" class="gallery-lightbox"
+                  data-gall="gallery-item">
+                  <img src="assets/img/factoryoutlet/sri-rana-warangal/1.jpg" alt="" class="img-fluid">
+                </a>
               </div>
-  
             </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="gallery-item">
+                <a href="assets/img/factoryoutlet/sri-rana-warangal/2.jpg" class="gallery-lightbox"
+                  data-gall="gallery-item">
+                  <img src="assets/img/factoryoutlet/sri-rana-warangal/2.jpg" alt="" class="img-fluid">
+                </a>
+              </div>
+            </div>
+
           </div>
-        </section><!-- End Gallery Section -->
-  
-      </main><!-- End #main -->
+        </div>
+      </section><!-- End Gallery Section -->
+
+    </main><!-- End #main -->
 
 
-      
-      <!-- ======= inner-page ======= -->
-      <section id="teja-marble" class="inner-page">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6 pt-4 pt-lg-0 content">
-              <h2><a href="#teja-marble">Teja Marble & Granite</a></h2>
-              <p>Allahabad</p>
-              <p>Phone- +919414776271</p>
-              <!-- <span>Inani group Owns quarries that produce more than 20 different colors. Abundant with granite, Marble,
+
+    <!-- ======= inner-page ======= -->
+    <section id="teja-marble" class="inner-page">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 pt-4 pt-lg-0 content">
+            <h2><a href="#teja-marble">Teja Marble & Granite</a></h2>
+            <p>Allahabad</p>
+            <p>Phone- +919414776271</p>
+            <!-- <span>Inani group Owns quarries that produce more than 20 different colors. Abundant with granite, Marble,
                 Quartzite and
                 sand stone deposits, these quarries are spread across North India. </span>
               <span>Kasariyaji is a town in Rajasthan state, near Udaipur. It is headquarter of green marble. It is 60 km
                 from Udaipur 
                 airport.</span>-->
-            </div>
-  
-              <!-- <div class="col-lg-6">
+          </div>
+
+          <!-- <div class="col-lg-6">
                 <img src="assets/img/event-birthday.jpg" class="img-fluid" alt="">
               </div> -->
-          </div>
         </div>
-      </section>
-      <!-- End inner-page Section -->
-  
-      <main id="main">
-        <!-- ======= Gallery Section ======= -->
-        <section id="gallery-section" class="gallery">
-          <div class="container" data-aos="fade-up" data-aos-delay="100">
-            <div class="row">
-              <!-- <div class="col-lg-3 col-md-4">
+      </div>
+    </section>
+    <!-- End inner-page Section -->
+
+    <main id="main">
+      <!-- ======= Gallery Section ======= -->
+      <section id="gallery-section" class="gallery">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row">
+            <!-- <div class="col-lg-3 col-md-4 col-sm-6">
                 <div class="gallery-item">
                   <a href="assets/img/manufacturing-units/rajsubh/1.jpg" class="gallery-lightbox" data-gall="gallery-item">
                     <img src="assets/img/manufacturing-units/rajsubh/1.jpg" alt="" class="img-fluid">
                   </a>
                 </div>
               </div> -->
-  
-              <div class="col-lg-3 col-md-4">
-                <div class="gallery-item">
-                  <a href="assets/img/factoryoutlet/teja/1.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                    <img src="assets/img/factoryoutlet/teja/1.jpg" alt="" class="img-fluid">
-                  </a>
-                </div>
-              </div>
 
-              <div class="col-lg-3 col-md-4">
-                <div class="gallery-item">
-                  <a href="assets/img/factoryoutlet/teja/2.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                    <img src="assets/img/factoryoutlet/teja/2.jpg" alt="" class="img-fluid">
-                  </a>
-                </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="gallery-item">
+                <a href="assets/img/factoryoutlet/teja/1.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                  <img src="assets/img/factoryoutlet/teja/1.jpg" alt="" class="img-fluid">
+                </a>
               </div>
-  
             </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="gallery-item">
+                <a href="assets/img/factoryoutlet/teja/2.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                  <img src="assets/img/factoryoutlet/teja/2.jpg" alt="" class="img-fluid">
+                </a>
+              </div>
+            </div>
+
           </div>
-        </section><!-- End Gallery Section -->
-  
-      </main><!-- End #main -->
+        </div>
+      </section><!-- End Gallery Section -->
+
+    </main><!-- End #main -->
 
 
-       <!-- ======= inner-page ======= -->
-       <section id="sri-rana-patna" class="inner-page">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6 pt-4 pt-lg-0 content">
-              <h2><a href="#sri-rana-patna">Sri Rana Marble & Granite</a></h2>
-              <p>Paijawa Bypass Road, Patna</p>
-              <p>Phone- +917895295766</p>
-              <!-- <span>Inani group Owns quarries that produce more than 20 different colors. Abundant with granite, Marble,
+    <!-- ======= inner-page ======= -->
+    <section id="sri-rana-patna" class="inner-page">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 pt-4 pt-lg-0 content">
+            <h2><a href="#sri-rana-patna">Sri Rana Marble & Granite</a></h2>
+            <p>Paijawa Bypass Road, Patna</p>
+            <p>Phone- +917895295766</p>
+            <!-- <span>Inani group Owns quarries that produce more than 20 different colors. Abundant with granite, Marble,
                 Quartzite and
                 sand stone deposits, these quarries are spread across North India. </span>
               <span>Kasariyaji is a town in Rajasthan state, near Udaipur. It is headquarter of green marble. It is 60 km
                 from Udaipur 
                 airport.</span>-->
-            </div>
-  
-              <!-- <div class="col-lg-6">
+          </div>
+
+          <!-- <div class="col-lg-6">
                 <img src="assets/img/event-birthday.jpg" class="img-fluid" alt="">
               </div> -->
-          </div>
         </div>
-      </section>
-      <!-- End inner-page Section -->
-  
-      <main id="main">
-        <!-- ======= Gallery Section ======= -->
-        <section id="gallery-section" class="gallery">
-          <div class="container" data-aos="fade-up" data-aos-delay="100">
-            <div class="row">
-              <!-- <div class="col-lg-3 col-md-4">
+      </div>
+    </section>
+    <!-- End inner-page Section -->
+
+    <main id="main">
+      <!-- ======= Gallery Section ======= -->
+      <section id="gallery-section" class="gallery">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row">
+            <!-- <div class="col-lg-3 col-md-4 col-sm-6">
                 <div class="gallery-item">
                   <a href="assets/img/manufacturing-units/rajsubh/1.jpg" class="gallery-lightbox" data-gall="gallery-item">
                     <img src="assets/img/manufacturing-units/rajsubh/1.jpg" alt="" class="img-fluid">
                   </a>
                 </div>
               </div> -->
-  
-              <div class="col-lg-3 col-md-4">
-                <div class="gallery-item">
-                  <a href="assets/img/factoryoutlet/sri-rana-patna/1.JPG" class="gallery-lightbox" data-gall="gallery-item">
-                    <img src="assets/img/factoryoutlet/sri-rana-patna/1.JPG" alt="" class="img-fluid">
-                  </a>
-                </div>
-              </div>
 
-              <div class="col-lg-3 col-md-4">
-                <div class="gallery-item">
-                  <a href="assets/img/factoryoutlet/sri-rana-patna/2.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                    <img src="assets/img/factoryoutlet/sri-rana-patna/2.jpg" alt="" class="img-fluid">
-                  </a>
-                </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="gallery-item">
+                <a href="assets/img/factoryoutlet/sri-rana-patna/1.JPG" class="gallery-lightbox"
+                  data-gall="gallery-item">
+                  <img src="assets/img/factoryoutlet/sri-rana-patna/1.JPG" alt="" class="img-fluid">
+                </a>
               </div>
-  
             </div>
-          </div>
-        </section><!-- End Gallery Section -->
-  
-      </main><!-- End #main -->
 
-    
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="gallery-item">
+                <a href="assets/img/factoryoutlet/sri-rana-patna/2.jpg" class="gallery-lightbox"
+                  data-gall="gallery-item">
+                  <img src="assets/img/factoryoutlet/sri-rana-patna/2.jpg" alt="" class="img-fluid">
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section><!-- End Gallery Section -->
+
+    </main><!-- End #main -->
+
+
 
   </main><!-- End #main -->
 

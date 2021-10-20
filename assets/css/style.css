@@ -126,7 +126,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #topbar {
   height: 11vh;
-  font-size: 1.5vh;
+  font-size: 15px;
   transition: all 0.5s;
   z-index: 996;
 }
@@ -245,7 +245,7 @@ h1, h2, h3, h4, h5, h6 {
   display:  block !important;
 }
 .book-a-table-btn.mobile-view {
-    display: none !important;
+  display: none !important;
 }
 
 .book-a-table-btn:hover {
@@ -253,75 +253,83 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
+.mobile-no,
+.social-icon{
+  display: flex;
+    align-items: center;
+}
+
 @media (max-width: 992px) {
-	.book-a-table-btn{
-		display: none !important;
-	}
   .show-more {
     display: block !important;
   }
-	.book-a-table-btn.mobile-view {
+  .book-a-table-btn.mobile-view {
     display: block !important;
     margin: 6px 4px 4px 0;
-}
-.book-a-table-btn {
-  margin: 10px 0 0 8px;
-  padding: 5px 9px;
-  font-size: 7px;
-  min-width: 75px;
-  max-height: 38px;
-}
-section#gallery a.book-a-table-btn.scrollto.d-none.d-lg-flex {
-  margin-top: 10px;
-}
-.top-swiper-text h2 {
-  font-size: 18px;
-}
-.top-swiper-text{
-  height: -webkit-fill-available !important;
-}
-.fixed-top {
-  position: relative;
-  top: 0 !IMPORTANT;
-}
-.swiper-slide .img-fluid {
-  height: auto !important;
-}
-header#header {
-  display: inherit !important;
-  float: left;
-  width: 100%;
-}
-.container-fluid.container-xl.d-flex.align-items-center.justify-content-lg-between {
-  display: inline !important;
-  float: left;
-}
-.navbar-mobile{
-  position: relative !important;
+  }
+  .book-a-table-btn {
+    margin: 10px 0 0 8px;
+    padding: 0px 9px;
+    font-size: 7px;
+    min-width: 75px;
+    max-height: 38px;
+  }
+  section#gallery a.book-a-table-btn.scrollto.d-none.d-lg-flex {
+    margin-top: 10px;
+  }
+  .top-swiper-text h2 {
+    font-size: 18px;
+  }
+  .top-swiper-text{
+    height: -webkit-fill-available !important;
+  }
+  .fixed-top {
+    position: relative;
+    top: 0 !IMPORTANT;
+  }
+  .swiper-slide .img-fluid {
+    height: auto !important;
+  }
+  header#header {
+    display: inherit !important;
+    float: left;
     width: 100%;
-}
-#header .logo a,
-.top-swiper-silder,
-main#main{
-  float: left;
-}
-.mobile-nav-toggle {
-  float: right;
-  margin-top: 15px;
-}
-nav.navbar.order-last.order-lg-0{
-	max-height: 0;
+  }
+  .container-fluid.container-xl.d-flex.align-items-center.justify-content-lg-between {
+    display: inline !important;
+    float: left;
+    padding:0;
+  }
+  .navbar-mobile{
+    position: relative !important;
+    width: 100%;
+  }
+  #header .logo a,
+  .top-swiper-silder,
+  main#main{
+    float: left;
+  }
+  .mobile-nav-toggle {
+    float: right;
+    margin-top: 15px;
+  }
+  nav.navbar.order-last.order-lg-0{
+    max-height: 0;
     transition: max-height 0.5s ease-out;
-}
-nav.navbar.order-last.order-lg-0.navbar-mobile{
-	max-height: 380px;
+  }
+  nav.navbar.order-last.order-lg-0.navbar-mobile{
+    max-height: 555px;
     transition: max-height 0.5s ease-in;
     overflow-y: auto;
-}
-main#main,
-main#main{
-  width: 100%;
-}
+  }
+  main#main,
+  main#main{
+    width: 100%;
+  }
+  .navbar li{
+    margin-left: 0 !important;
+  }
+
 }
 
 /*--------------------------------------------------------------
@@ -376,7 +384,7 @@ main#main{
 .navbar .dropdown ul {
   display: block;
   position: absolute;
-  left: 14px;
+  left: -65px;
   top: calc(100% + 30px);
   margin: 0;
   padding: 10px 0;
@@ -545,15 +553,15 @@ main#main{
 }
 .top-swiper-text{
   position: absolute;
-    top: 0;
-    z-index: 9;
-    text-align: center;
-    width: 100%;
-    background: #0000008f;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  top: 0;
+  z-index: 9;
+  text-align: center;
+  width: 100%;
+  background: #0000008f;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .swiper-slide .img-fluid{
   width: 100%;
@@ -780,7 +788,7 @@ main#main{
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0 20px 0;
+  padding: 10px 0 20px 0;
   overflow: hidden;
 }
 
@@ -884,7 +892,7 @@ section {
   background: url("../img/about-bg.jpg") center center;
   background-size: cover;
   position: relative;
-  padding: 80px 0;
+  padding-top: 50px;
 }
 
 .about:before {
@@ -961,14 +969,14 @@ section {
 }
 
 .about .content .space-text {
-  font-size: 2vh;
+  font-size: 15px;
   letter-spacing: 3px;
   font-weight: 600;
   margin-bottom: 10px;
 }
 
 .about .content p {
-  font-size: 1.7vh;
+  font-size: 15px;
   letter-spacing: 1px;
   line-height: 1.6;
   text-align: justify;
@@ -978,7 +986,7 @@ section {
 .about .content ul {
   list-style: none;
   padding: 0;
-  font-size: 1.6vh;
+  font-size: 15px;
   color: #cda45e;
   display: flex;
   flex-wrap: wrap;
@@ -990,6 +998,12 @@ section {
 .about .content ul li {
   padding-bottom: 10px;
   width: 30%;
+}
+
+@media (max-width: 576px){
+  .about .content ul li {
+    width: 50%;
+  }
 }
 
 .about .content ul i {
@@ -1104,8 +1118,8 @@ section {
 
 .menu .menu-content::after {
   content: "......................................................................"
- "...................................................................."
- "....................................................................";
+    "...................................................................."
+    "....................................................................";
   position: absolute;
   left: 20px;
   right: 0;
@@ -1497,10 +1511,10 @@ section {
 
 #gallery-section .gallery-item  {
   background: #fff;
-    padding: 5px;
-    border-radius: 5px;
-    border: 0;
-    margin-bottom: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 0;
+  margin-bottom: 20px;
 }
 #gallery-section .member-info-content {
   text-align: center;
@@ -1948,4 +1962,47 @@ section {
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+
+@media (min-width: 576px){
+  .container, .container-sm {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  #topbar a.book-a-table-btn {
+    font-size: 17px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 11px;
+}
+  #topbar{
+    height: auto;
+  }
+  #topbar .contact-info i{
+    font-size: 15px;
+  }
+  .navbar-mobile .dropdown ul{
+    position: relative;
+    margin: 0;
+    box-shadow: inherit;
+  }
+  a.book-a-table-btn.scrollto.d-none.d-lg-flex.mobile-view {
+    font-size: 17px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .contact-info.d-flex.align-items-center{
+    justify-content: center;
+  }
+  .navbar-mobile ul{
+    padding-top: 0;
+    overflow-x: hidden;
+  }
+  div#topbar .container.d-flex.justify-content-center.justify-content-md-between{
+    flex-direction: column;
+  }
 }
