@@ -295,7 +295,7 @@ h1, h2, h3, h4, h5, h6 {
     float: left;
     width: 100%;
   }
-  .container-fluid.container-xl.d-flex.align-items-center.justify-content-lg-between {
+  .container-fluid.d-flex.align-items-center.justify-content-lg-between {
     display: inline !important;
     float: left;
     padding:0;
@@ -315,11 +315,13 @@ h1, h2, h3, h4, h5, h6 {
   }
   nav.navbar.order-last.order-lg-0{
     max-height: 0;
-    transition: max-height 0.5s ease-out;
+    -webkit-transition: max-height 0.8s;
+	-moz-transition: max-height 0.8s;
+	transition: max-height 0.8s;
   }
   nav.navbar.order-last.order-lg-0.navbar-mobile{
     max-height: 555px;
-    transition: max-height 0.5s ease-in;
+    transition: max-height 0.8s ease-in;
     overflow-y: auto;
   }
   main#main,
@@ -384,7 +386,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar .dropdown ul {
   display: block;
   position: absolute;
-  left: -65px;
+  left: 10px;
   top: calc(100% + 30px);
   margin: 0;
   padding: 10px 0;
@@ -999,13 +1001,11 @@ section {
   padding-bottom: 10px;
   width: 30%;
 }
-
 @media (max-width: 576px){
   .about .content ul li {
     width: 50%;
   }
 }
-
 .about .content ul i {
   font-size: 20px;
   padding-right: 4px;
@@ -1999,7 +1999,7 @@ section {
     justify-content: center;
   }
   .navbar-mobile ul{
-    padding-top: 0;
+    padding-top: 15px;
     overflow-x: hidden;
   }
   div#topbar .container.d-flex.justify-content-center.justify-content-md-between{
