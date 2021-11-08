@@ -180,7 +180,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 
 #header {
-  background: rgb(255 255 255 / 60%);
+  background: white;
   transition: all 0.5s;
   z-index: 997;
   padding: 5px 0;
@@ -308,6 +308,7 @@ h1, h2, h3, h4, h5, h6 {
   .top-swiper-silder,
   main#main{
     float: left;
+    margin-top: 0px !important;
   }
   .mobile-nav-toggle {
     float: right;
@@ -384,7 +385,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar .dropdown ul {
   display: block;
   position: absolute;
-  left: -65px;
+  left: 20px;
   top: calc(100% + 30px);
   margin: 0;
   padding: 10px 0;
@@ -550,6 +551,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 .top-swiper-silder{
   position: relative;
+  margin-top: 130px;
 }
 .top-swiper-text{
   position: absolute;
@@ -1988,6 +1990,7 @@ section {
     position: relative;
     margin: 0;
     box-shadow: inherit;
+    margin-top: 15px;
   }
   a.book-a-table-btn.scrollto.d-none.d-lg-flex.mobile-view {
     font-size: 17px;
