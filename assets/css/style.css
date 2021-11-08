@@ -847,9 +847,9 @@ section {
   .breadcrumbs {
     margin-top: 0;
   }
-  .back-to-top{
+  /* .back-to-top{
     bottom: 83px;
-  }
+  } */
 }
 
 .breadcrumbs h2 {
