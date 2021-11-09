@@ -1588,10 +1588,7 @@ section {
   margin-bottom: 2px;
   font-size: 18px;
   color: #fff;
-}
-
-.chefs .member .highlight h4 {
-  color: #000 !important;
+  text-shadow: 1px 1px #dd9316;
 }
 
 .chefs .member .member-info-content span {
