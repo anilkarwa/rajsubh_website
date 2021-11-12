@@ -548,6 +548,10 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
 }
 
+.desktop-menu-fix {
+  left: -100px !important;
+}
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -2008,5 +2012,9 @@ section {
   }
   div#topbar .container.d-flex.justify-content-center.justify-content-md-between{
     flex-direction: column;
+  }
+
+  .desktop-menu-fix {
+    left: 0px !important;
   }
 }
