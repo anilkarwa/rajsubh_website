@@ -166,6 +166,7 @@
    */
   let preloader = select('#preloader');
   if (preloader) {
+    preloader.remove()
     window.addEventListener('load', () => {
       preloader.remove()
     });
