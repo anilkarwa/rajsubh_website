@@ -901,7 +901,7 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  background: url("../img/about-bg.webp") center center;
+  background: url("../img/about-bg.jpg") center center;
   background-size: cover;
   position: relative;
   padding-top: 50px;
